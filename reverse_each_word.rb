@@ -14,6 +14,7 @@ require 'pry'
 def reverse_each_word(sentence)
   sentence.reverse.split(" ").collect do |word|
     word.join(" ")
+    binding.pry
   end 
 end
 binding.pry
