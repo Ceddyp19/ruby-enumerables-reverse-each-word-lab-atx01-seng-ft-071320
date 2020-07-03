@@ -16,3 +16,4 @@ def reverse_each_word(sentence)
     word.join(" ")
   end 
 end
+binding.pry
